@@ -1,0 +1,44 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: bisque;
+}
+
+p {
+    border-style: solid double;
+    background-color: lightcyan;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.em;
+    margin-bottom: 5px;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tbody tr:hover {
+    /* flagCES{This_is_a_pseudo_flag} */
+    background-color: #e0e0e0;
+}
